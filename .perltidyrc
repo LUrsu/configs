@@ -1,0 +1,18 @@
+# slightly modified PBP .perltidyrc file
+-l=100 # Max line width is 100 cols
+-i=4 # Indent level is 4 cols
+-ci=4 # Continuation indent is 4 cols
+-se # Errors to STDERR
+-vt=2 # Maximal vertical tightness
+-cti=0 # No extra indentation for closing brackets
+-pt=2 # High parenthesis tightness
+-bt=2 # High brace tightness
+-sbt=2 # High square bracket tightness
+-bbt=1 # High block brace tightness
+-nsfs # No space before semicolons
+-nolq # Don't outdent long quoted strings
+# some additionals
+-ce # cuddled else
+-mft=1 # maximum fields per table
+-cab=1 # comma arrow breakpoints
+-q # quiet errors for running under an editor
