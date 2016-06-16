@@ -25,7 +25,7 @@ if [ $LINK -eq 0 ];
 then
     cp rc.lua "$HOME/.config/awesome"
 else
-    ln -s rc.lua "$HOME/.config/awesome"
+    ln rc.lua "$HOME/.config/awesome"
 fi
 
 echo installing oh-my-zsh
@@ -40,7 +40,7 @@ if [ $LINK -eq 0 ];
 then
     cp .zshrc $HOME
 else
-    ln -s .zshrc $HOME
+    ln .zshrc $HOME
 fi
 
 echo setting up vim configs
@@ -48,7 +48,7 @@ if [ $LINK -eq 0 ];
 then
     cp .vimrc $HOME
 else
-    ln -s .vimrc $HOME
+    ln .vimrc $HOME
 fi
 # install all of the vim plugins
 vim +PlugInstall
